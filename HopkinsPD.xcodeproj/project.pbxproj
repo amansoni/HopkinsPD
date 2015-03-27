@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		CA8D109C72224F3B77099D19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8D183D54D2646B51667EA2 /* main.m */; };
 		CA8D12ADA9346546EABA4B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8D12A79A1F7A8FE5A1A43A /* Main.storyboard */; };
+		CA8D147104E31CC21239B692 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA8D1E3422689AD8568D3FDE /* Settings.bundle */; };
+		CA8D15DF063A73790F03695D /* ActiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D11F80F28F698A3C0E77E /* ActiveTest.swift */; };
 		CA8D176350E2396DEBFAED6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8D1F74E6A3559D3C224FFB /* Images.xcassets */; };
 		CA8D17F67833C221C5E52975 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8D19CFB380B21B593A3282 /* ViewController.m */; };
 		CA8D1AAAEBB86B597B9E79CA /* HopkinsPDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8D16BB7483F20C9D58B224 /* HopkinsPDTests.m */; };
+		CA8D1B11BF8625382AA6D07D /* TestActiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D1DB83D1F53E88454FFCF /* TestActiveTest.swift */; };
 		CA8D1CB0D86923BBC88F1576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8D121CEB894896E4C18ECE /* LaunchScreen.xib */; };
 		CA8D1D91D3D12028B006FD20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8D169F4201DB951374317A /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA8D11F80F28F698A3C0E77E /* ActiveTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveTest.swift; sourceTree = "<group>"; };
 		CA8D1338801CC102554E051D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		CA8D147F1233C11144E600E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA8D163C57AE0EE9C4CF89B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		CA8D19CFB380B21B593A3282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA8D1A974E9B083225CD7854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA8D1BC5DF5662765150F267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CA8D1DB83D1F53E88454FFCF /* TestActiveTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActiveTest.swift; sourceTree = "<group>"; };
+		CA8D1E3422689AD8568D3FDE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CA8D1EBB184B8198A6CCC01C /* HopkinsPD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopkinsPD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8D1F2B7EAC969CA20CEABF /* HopkinsPDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopkinsPDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8D1F74E6A3559D3C224FFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 			children = (
 				CA8D1AD50EC37B1F246537F1 /* Supporting Files */,
 				CA8D16BB7483F20C9D58B224 /* HopkinsPDTests.m */,
+				CA8D1DB83D1F53E88454FFCF /* TestActiveTest.swift */,
 			);
 			path = HopkinsPDTests;
 			sourceTree = "<group>";
@@ -89,6 +96,8 @@
 				CA8D12A79A1F7A8FE5A1A43A /* Main.storyboard */,
 				CA8D16BC1F5CD156231DEA85 /* ViewController.h */,
 				CA8D19CFB380B21B593A3282 /* ViewController.m */,
+				CA8D1E3422689AD8568D3FDE /* Settings.bundle */,
+				CA8D11F80F28F698A3C0E77E /* ActiveTest.swift */,
 			);
 			path = HopkinsPD;
 			sourceTree = "<group>";
@@ -191,6 +200,7 @@
 				CA8D176350E2396DEBFAED6D /* Images.xcassets in Resources */,
 				CA8D1CB0D86923BBC88F1576 /* LaunchScreen.xib in Resources */,
 				CA8D12ADA9346546EABA4B97 /* Main.storyboard in Resources */,
+				CA8D147104E31CC21239B692 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +221,8 @@
 				CA8D109C72224F3B77099D19 /* main.m in Sources */,
 				CA8D1D91D3D12028B006FD20 /* AppDelegate.m in Sources */,
 				CA8D17F67833C221C5E52975 /* ViewController.m in Sources */,
+				CA8D15DF063A73790F03695D /* ActiveTest.swift in Sources */,
+				CA8D1B11BF8625382AA6D07D /* TestActiveTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
